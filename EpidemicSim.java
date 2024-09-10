@@ -51,7 +51,7 @@ public class EpidemicSim {
       if(patients[row][column] == 'I'){
         System.out.print("\u001B[31m" + patients[row][column] + "\u001B[37m" + " ");
       }else if(patients[row][column] == 'R'){
-        System.out.print("\u001B[32m" + patients[row][column] + "\u001B[37m" + " ");
+        System.out.print("\u001B[34m" + patients[row][column] + "\u001B[37m" + " ");
       }else{
         System.out.print(patients[row][column] + " ");
       }
