@@ -48,7 +48,7 @@ public class EpidemicSim {
    * Lastly, if the char is 'S', which is true if neither of the above are true, it will stay colored black.
    */
     public static void coloredLetters(char[][] patients, int row, int column){
-      if(patients[row][column] != 'I'){
+      if(patients[row][column] == 'I'){
         System.out.print("\u001B[31m" + patients[row][column] + "\u001B[37m" + " ");
       }else if(patients[row][column] == 'R'){
         System.out.print("\u001B[32m" + patients[row][column] + "\u001B[37m" + " ");
