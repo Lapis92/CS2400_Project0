@@ -182,10 +182,8 @@ public class EpidemicSim {
 
   // Main method:
     public static void main(String[] args) {
-
       // Scanner:
         Scanner scnr = new Scanner(System.in);
-
       // Variable declaration:
         int numTimeSteps = 0;
         double alpha = -1;
